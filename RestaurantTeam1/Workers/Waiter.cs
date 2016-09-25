@@ -18,7 +18,18 @@ namespace RestaurantTeam1.Workers
             List<Dish> preparedDishes = new List<Dish>();
             foreach(Dish dish in order.ListOfDishesInOrder)
             {
-                preparedDishes.Add(cooker.CookOrder(dish));
+                for(int i=4; i > 0; i--)
+                {
+                    this.DivideByPriority(i, dish, cooker);
+                }
+            }
+        }
+
+        public void DivideByPriority(int priority, Dish dish, Cooker cooker)
+        {
+            if (dish.Priority == priority)
+            {
+                cooker.CookOrder(dish);
             }
         }
     }

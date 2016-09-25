@@ -31,12 +31,13 @@ namespace RestaurantTeam1.Rooms
             this.Ashtray = ashtray;
         }
 
-        public void ToTakeTable()
+        public void ToTakeTable(Guest guest)
         {
             if (!this.isReserved)
             {
                 this.isVacant = false;
             }
+            this.GuestAtTable = guest;
         }
 
         public void ToReserveTable()

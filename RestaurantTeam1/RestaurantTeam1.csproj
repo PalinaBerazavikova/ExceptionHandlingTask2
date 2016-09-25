@@ -64,6 +64,7 @@
     <Compile Include="Dishes\Entree.cs" />
     <Compile Include="Dishes\Menu.cs" />
     <Compile Include="Dishes\Salad.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Guest.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Rooms\Room.cs" />

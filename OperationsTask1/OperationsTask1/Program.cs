@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task2
+namespace OperationsTask1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Counter.Fibonacci(152);
-            Counter.Factorial(152);
+            Creater creater = new Creater();
             Console.ReadKey();
         }
     }

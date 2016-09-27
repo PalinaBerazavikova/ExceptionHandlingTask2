@@ -11,21 +11,11 @@ namespace TaskOperations_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the path to new directory.");
-            string path = Console.ReadLine();
+            Creater creater = new Creater();
             try
             {
-                // Determine whether the directory exists.
-                while (Directory.Exists(path))
-                {
-                    Console.WriteLine("That path exists already.");
-                    Console.WriteLine("Enter another path.");
-                    path = Console.ReadLine();
-
-                }
-                    // Try to create the directory.
-                    DirectoryInfo di = Directory.CreateDirectory(path);
-                    Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path));
+               
+                   
                     path = $"{path}\\NewFile.txt";
                     using (FileStream fs = File.Create(path))
                     {

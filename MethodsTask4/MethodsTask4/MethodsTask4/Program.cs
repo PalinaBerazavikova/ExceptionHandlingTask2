@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsTask3
+namespace MethodsTask4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SmartClass sc1 = new SmartClass();
-            SmartClass sc2 = new SmartClass();
-            SmartClass sc3 = new SmartClass();
-            sc3.Dispose();
-            Console.WriteLine(SmartClass.Counter);
+            Counter count = new Counter(345.34);
+            Console.WriteLine(count.CountRect(12.1, 12.5));
             Console.ReadKey();
         }
     }

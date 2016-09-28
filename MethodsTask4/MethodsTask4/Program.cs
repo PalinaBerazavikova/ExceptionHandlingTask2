@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OperationsTask1
+namespace MethodsTask4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Creater creater = new Creater();
-            creater.Start();
+            Counter count = new Counter(345.34);
+            Console.WriteLine(count.CountRect(12.1, 12.5));
             Console.ReadKey();
         }
     }

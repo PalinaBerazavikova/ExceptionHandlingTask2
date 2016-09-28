@@ -1,8 +1,0 @@
-c:\users\palina_berazavikova\documents\visual studio 2015\Projects\MethodsTask4\MethodsTask4\bin\Debug\MethodsTask4.exe.config
-c:\users\palina_berazavikova\documents\visual studio 2015\Projects\MethodsTask4\MethodsTask4\bin\Debug\MethodsTask4.exe
-c:\users\palina_berazavikova\documents\visual studio 2015\Projects\MethodsTask4\MethodsTask4\bin\Debug\MethodsTask4.pdb
-c:\users\palina_berazavikova\documents\visual studio 2015\Projects\MethodsTask4\MethodsTask4\obj\Debug\MethodsTask4.exe
-c:\users\palina_berazavikova\documents\visual studio 2015\Projects\MethodsTask4\MethodsTask4\obj\Debug\MethodsTask4.pdb
-c:\users\palina_berazavikova\rep\NewRepo\MethodsTask4\MethodsTask4\MethodsTask4\bin\Debug\MethodsTask4.exe.config
-c:\users\palina_berazavikova\rep\NewRepo\MethodsTask4\MethodsTask4\MethodsTask4\obj\Debug\MethodsTask4.exe
-c:\users\palina_berazavikova\rep\NewRepo\MethodsTask4\MethodsTask4\MethodsTask4\obj\Debug\MethodsTask4.pdb

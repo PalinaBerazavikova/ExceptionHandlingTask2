@@ -1,0 +1,8 @@
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\OperationsTask1\OperationsTask1\bin\Debug\OperationsTask1.exe.config
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\OperationsTask1\OperationsTask1\bin\Debug\OperationsTask1.exe
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\OperationsTask1\OperationsTask1\bin\Debug\OperationsTask1.pdb
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\OperationsTask1\OperationsTask1\obj\Debug\OperationsTask1.exe
+c:\users\palina_berazavikova\documents\visual studio 2015\Projects\OperationsTask1\OperationsTask1\obj\Debug\OperationsTask1.pdb
+c:\users\palina_berazavikova\rep\NewRepo\OperationsTask1\OperationsTask1\bin\Debug\OperationsTask1.exe.config
+c:\users\palina_berazavikova\rep\NewRepo\OperationsTask1\OperationsTask1\obj\Debug\OperationsTask1.exe
+c:\users\palina_berazavikova\rep\NewRepo\OperationsTask1\OperationsTask1\obj\Debug\OperationsTask1.pdb

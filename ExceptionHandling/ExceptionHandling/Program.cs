@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsTask4
+namespace ExceptionHandling
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Counter count = new Counter(345.34);
-            Console.WriteLine(count.CountRect(12.1, 12.5));
+            FileHandler fileHandler = new FileHandler();
+            fileHandler.getPath();
             Console.ReadKey();
         }
     }

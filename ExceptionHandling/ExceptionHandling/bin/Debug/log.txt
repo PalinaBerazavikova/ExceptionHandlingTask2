@@ -1,0 +1,5 @@
+Exceptions:
+Exception Was Found!
+Type: ExceptionHandling.WrongExtensionException
+Message: Your file is not a txt file
+

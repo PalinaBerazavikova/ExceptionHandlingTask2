@@ -14,9 +14,22 @@ namespace ExceptionHandling
         {
             string path = string.Empty;
             Console.WriteLine("Please enter the path to your txt file:");
+            path = Console.ReadLine();
             try
             {
-                path = Console.ReadLine();
+
+                if (!File.Exists(path))
+                {
+                    throw new System.IO.FileNotFoundException("Your file doesn't exist");
+                }
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine($"Exception: {e.Message}");
+                Logger.Write(ExceptionLogger.CreateExceptionString(e));
+            }
+            try
+            {
                 if (Path.GetExtension(path) != this.Extension)
                 {
                     throw new WrongExtensionException("Your file is not a txt file");

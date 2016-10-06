@@ -1,5 +1,10 @@
 Exceptions:
 Exception Was Found!
+Type: System.IO.FileNotFoundException
+Message: Your file doesn't exist
+
+
+Exception Was Found!
 Type: ExceptionHandling.WrongExtensionException
 Message: Your file is not a txt file
 

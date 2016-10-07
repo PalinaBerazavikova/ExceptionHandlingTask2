@@ -19,7 +19,6 @@ namespace ExceptionHandling
             }
             if (!Path.GetExtension(path).Equals(Extension))
             {
-                Console.WriteLine(Path.GetExtension(path));
                 throw new Exceptions.WrongExtensionException($"file {path} is not a txt file");
             }
         }
@@ -27,36 +26,19 @@ namespace ExceptionHandling
         public string GetPath()
         {
             string path = string.Empty;
-            bool isFileOkay;
-            do
-            {
-                isFileOkay = true;
-                Console.WriteLine("Please enter the path to your txt file:");
-                path = Console.ReadLine();
-                try
-                {
-                    this.CheckFileOnExceptions(path);
-                }
-                catch (FileNotFoundException e)
-                {
-                    isFileOkay = false;
-                    Console.WriteLine($"{Exception} {e.Message}");
-                    Logger.Write(ExceptionLogger.CreateExceptionString(e));
-                }
-                catch (Exceptions.WrongExtensionException e)
-                {
-                    isFileOkay = false;
-                    Console.WriteLine($"{Exception} {e.Message}");
-                    Logger.Write(ExceptionLogger.CreateExceptionString(e));
-                }
-            } while (!isFileOkay);
-
+            Console.WriteLine("Please enter the path to your txt file:");
+            path = Console.ReadLine();
+            this.CheckFileOnExceptions(path);
             return path;
         }
-      
+
         public List<string> FindFirstSymbols(string path)
         {
             string[] lines = System.IO.File.ReadAllLines(path);
+            if (lines.Length == 0)
+            {
+                throw new Exceptions.EmptyFileException($"empty file {path}");
+            }
             List<string> notEmptyLines = new List<string>();
             int lineNumber = 0;
             foreach (string line in lines)
@@ -79,7 +61,8 @@ namespace ExceptionHandling
                     if (firstSymbol.Equals(" "))
                     {
                         notEmptyLines.Add("Space symbol");
-                    }else
+                    }
+                    else
                     {
                         notEmptyLines.Add(firstSymbol);
                     }
@@ -90,7 +73,7 @@ namespace ExceptionHandling
 
         private void CheckEmptyLines(string line, int lineNumber)
         {
-            if(line == "")
+            if (line == "")
             {
                 throw new Exceptions.EmptyStringException($"empty line #{lineNumber} was founded");
             }
@@ -98,13 +81,51 @@ namespace ExceptionHandling
 
         public void ShowFirstSymbols()
         {
-            string path = this.GetPath();
-            List<string> notEmptyLines = this.FindFirstSymbols(path);
-            Console.WriteLine("Fist symbol of lines in file");
-            foreach(string symb in notEmptyLines)
+            bool isOkay;
+            string path;
+            List<string> notEmptyLines = new List<string>() ;
+            do
+            {
+                isOkay = true;
+                try
+                {
+                    path = this.GetPath();
+                }
+                catch (FileNotFoundException e)
+                {
+                    isOkay = false;
+                    this.HandleCatchedException(e);
+                    continue;
+                }
+                catch (Exceptions.WrongExtensionException e)
+                {
+                    isOkay = false;
+                    this.HandleCatchedException(e);
+                    continue;
+                }
+                try
+                {
+                    notEmptyLines = this.FindFirstSymbols(path);
+                }
+                catch (Exceptions.EmptyFileException e)
+                {
+                    isOkay = false;
+                    this.HandleCatchedException(e);
+                    continue;
+                }
+            } while (!isOkay);
+
+            Console.WriteLine("Fist symbol of lines in file:");
+            foreach (string symb in notEmptyLines)
             {
                 Console.WriteLine(symb);
             }
+        }
+
+        private void HandleCatchedException(Exception e)
+        {
+            Console.WriteLine($"{Exception} {e.Message}");
+            Logger.Write(ExceptionLogger.CreateExceptionString(e));
         }
     }
 }

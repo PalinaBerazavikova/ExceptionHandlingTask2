@@ -17,7 +17,7 @@ namespace ExceptionHandling
             {
                 using (FileStream fileStream = File.Create(path))
                 {
-                    Byte[] info = new UTF8Encoding(true).GetBytes("Exceptions:");
+                    Byte[] info = new UTF8Encoding(true).GetBytes("EXCEPTIONS:");
                     fileStream.Write(info, 0, info.Length);
                 }
             }

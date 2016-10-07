@@ -1,10 +1,145 @@
 Exceptions:
 Exception Was Found!
-Type: System.IO.FileNotFoundException
-Message: Your file doesn't exist
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
 
 
 Exception Was Found!
-Type: ExceptionHandling.WrongExtensionException
-Message: Your file is not a txt file
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #5 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #5 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #5 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #2 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #4 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #6 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #9 was founded
+
+
+Exception Was Found!
+Type: ExceptionHandling.Exceptions.EmptyStringException
+Message: empty line #10 was founded
 

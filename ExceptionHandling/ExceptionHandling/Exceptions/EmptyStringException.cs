@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExceptionHandling.Exceptions
 {
-    public class WrongExtensionException : Exception
+    public class EmptyStringException : Exception
     {
-        public WrongExtensionException(string message) : base(message)
+        public EmptyStringException(string message) : base(message)
         {
 
         }

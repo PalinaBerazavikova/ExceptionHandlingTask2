@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExceptionLogger.cs" />
+    <Compile Include="Exceptions\EmptyStringException.cs" />
     <Compile Include="FileHandler.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />

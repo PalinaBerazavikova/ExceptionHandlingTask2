@@ -11,7 +11,7 @@ namespace ExceptionHandling
         static void Main(string[] args)
         {
             FileHandler fileHandler = new FileHandler();
-            fileHandler.getPath();
+            fileHandler.ShowFirstSymbols();
             Console.ReadKey();
         }
     }

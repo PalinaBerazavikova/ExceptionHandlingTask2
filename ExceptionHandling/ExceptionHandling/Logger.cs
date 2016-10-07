@@ -9,7 +9,7 @@ namespace ExceptionHandling
 {
     class Logger
     {
-        public static string FileName { get; set; } = @"\log.txt";
+        public const string FileName = @"\log.txt";
         public static void Write(String lines)
         {
             string path = $@"{Environment.CurrentDirectory}{FileName}";

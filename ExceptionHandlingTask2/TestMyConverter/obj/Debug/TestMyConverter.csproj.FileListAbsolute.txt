@@ -7,3 +7,12 @@ c:\users\palina_berazavikova\documents\visual studio 2015\Projects\ExceptionHand
 c:\users\palina_berazavikova\documents\visual studio 2015\Projects\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.csprojResolveAssemblyReference.cache
 c:\users\palina_berazavikova\documents\visual studio 2015\Projects\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.dll
 c:\users\palina_berazavikova\documents\visual studio 2015\Projects\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\obj\Debug\TestMyConverter.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\TestMyConverter.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\TestMyConverter.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\ExceptionHandlingTask2.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\nunit.framework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\ExceptionHandlingTask2.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ExceptionHandlingTask2\ExceptionHandlingTask2\TestMyConverter\bin\Debug\nunit.framework.xml
